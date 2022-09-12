@@ -1,0 +1,448 @@
+* {
+    margin:0;
+}
+.header {
+    background-color:#ffa200;
+    width:100%;
+    height:100px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+.content2 ul li  {
+    display:inline;
+    padding:0px 10px;
+    font-size:20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+a {
+    color:black;
+    text-decoration:none;
+    transition:.5s;
+}
+a:hover {
+    font-size:25px;
+}
+.content2 ul {
+    margin-top:40px;
+    margin-right:120px;
+}
+img {
+    margin-left:50px;
+}
+.mainImage {
+    width:100%;
+    height:500px;
+    background-image: url('../images/hero-image.jpg');
+    background-size:cover;
+}
+/* Everyday Categories */
+.categories {
+    width:100%;
+    height:500px;
+    background-color:white;
+    
+}
+.imagesEverydayCategories {
+    width:300px;
+    height:200px;
+    background-image: url(../images/breakfast-ideas.jpg);
+    background-position:center;
+    background-size:cover;
+    background-color:red;
+    margin-top:10px;
+}
+.everyDayCategoriesText {
+    width:70%;
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0 auto;
+    max-width:1250px;
+    margin-top:50px;
+}
+.containerTextAndImage {
+    max-width:1360px;
+    height:300px;
+    margin:0 auto;
+}
+.imagesContainer {
+    display:flex;
+    justify-content:space-between;
+    width:70%;
+    margin:0 auto;
+}
+.imagesText1 {
+    top:200px;
+    position:relative;
+    font-size:15px;
+    margin-left:20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.imagesText {
+    top:200px;
+    position:relative;
+    font-size:15px;
+    margin-left:60px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* End Everyday Categories */
+.containerTextAndImage2 {
+    max-width:850px;
+    height:300px;
+    margin:0 auto;
+    position:relative;
+    top:50px;
+}
+.text {
+    max-width:800px;
+}
+.recipes {
+    width:100%;
+    height:400px;
+    background-color:#dadfea;
+}
+
+.weekRight {
+    background-color:white;
+    width:500px;
+    height:50px;
+    position:absolute;
+    left:30%;
+    top:50%;
+    
+}
+.weekRight h1 {
+    text-align:center;
+    margin-top:5px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.pictures {
+    width:1000px;
+    height:200px;
+    position:relative;
+    top:80px;
+    left:500px;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+.pictures2 {
+    width:100%;;
+    height:200px;
+    display:flex;
+    justify-content:space-between;
+    margin:0 auto;
+    margin-top:20px;
+
+}
+.chilies {
+    background-image: url(../images/fajita-peppers.jpeg);
+    background-size:cover;
+    width:200px;
+    height:200px;
+}
+.muffins {
+    background-image: url(../images/muffins.jpeg);
+    background-size:cover;
+    width:200px;
+    height:200px;
+}
+.eggplant {
+    background-image: url(../images/eggplant-parmesan.jpg);
+    background-size:cover;
+    width:200px;
+    height:200px;
+}
+.tChicken {
+    background-image: url(../images/teriyaki-chicken.jpeg);
+    background-size:cover;
+    width:200px;
+    height:200px;
+}
+.textInside {
+    width:200px;
+    height:30px;
+    background-color:white;
+    position:absolute;
+    bottom:0;
+    text-align:center;
+    font-family: 'Roboto', sans-serif;
+    font-size:15px;
+}
+.recipes h1, h3 {
+    font-family: 'Roboto', sans-serif;
+}
+/* Where to Eat */
+.whereToEat {
+    width:100%;
+    height:800px;
+}
+.whereToEat h1, p {
+    font-family: 'Roboto', sans-serif;
+}
+.containerTextAndImages3 {
+    width:720px;
+    height:500px;
+    margin:0 auto;
+    position:relative;
+    top:100px;
+}
+.whereToEatText {
+    width:650px;
+    height:300px;
+    margin:0 auto;
+}
+.whereToEatImages {
+    width:100%;
+    height:200px;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+}
+.burger {
+    width:200px;
+    height:200px;
+    background-image: url(../images/bengal-burger.jpg);
+    background-size:cover;
+    background-position:center;
+    border:5px solid #dadfea;
+}
+.pizza {
+    width:200px;
+    height:200px;
+    background-image: url(../images/pizza.jpeg);
+    background-size:cover;
+    border:5px solid #dadfea;
+}
+.lobster {
+    width:200px;
+    height:200px;
+    background-image: url(../images/lobster.webp);
+    background-size:cover;
+    border:5px solid #dadfea;
+}
+/* End Where to Eat */
+footer {
+    width:100%;
+    height:150px;
+    background-color:#ffa200;
+    display:flex;
+    justify-content: space-between;
+}
+.credits {
+    width:500px;
+    height:150px;
+}
+.credits p {
+    margin-top:60px;
+    margin-left:50px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+.credits2 {
+    width:500px;
+    height:150px;
+}
+.credits2 ul li {
+    display:inline;
+    padding:10px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.credits2 ul {
+    margin-top:60px;
+}
+
+
+/* Recipes HTML Page */
+.mainHamburgerImage {
+    width:100%;
+    height:500px;
+    background-image: url('../images/pexels-adrian-dorobantu-2089717.jpg');
+    background-size:cover;
+    background-position:center;
+}
+.time {
+    width:100%;
+    height:200px;
+    background-color:#dadfea;
+}
+.timeTexts {
+    width:100%;
+    height:200px;
+    display:flex;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.textContainer1 {
+    margin-left:200px;
+    width:200px;
+    margin-top:-40px;
+}
+.textContainer1 h1 {
+    font-size:40px;
+}
+.textContainer1 h2 {
+    margin-top:15px;
+}
+.textPosition1 {
+    margin-top:80px;
+}
+.textPosition {
+    margin-top:100px;
+    height:200px;
+}
+.textContainer2 {
+    margin-left:200px;
+    width:200px;
+}
+.textContainer2 h2 {
+    margin-top:10px;
+}
+.textContainer3 {
+    margin-left:200px;
+    width:300px;
+
+}
+.textContainer3 h2 {
+    margin-top:10px;
+}
+.textPosition p {
+    margin-left:70px;
+    margin-top:-20px;
+}
+.textPosition1 p {
+    margin-left:70px;
+    margin-top:-20px;
+}
+/* Bengal Burger */
+.bengalBurger {
+    width:100%;
+    height:1500px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.stars {
+    width:125px;
+    height:25px;
+    margin-left:110px;
+    margin-top:10px;
+}
+.reviews {
+    margin-left:230px;
+    margin-top:-30px;
+    font-family: 'Roboto', sans-serif;
+}
+i {
+    color:#A63223;
+}
+.fa-print {
+    color:black;
+    font-size:20px;
+    margin-top:15px;
+    transition:.5s;
+    
+}
+.printer {
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    border:2px solid black;
+    text-align:center;
+    margin-left:300px;
+    margin-top:-55px;
+
+}
+.printer:hover  {
+    background-color:black;
+
+}
+.fa-print:hover {
+    color:white;
+}
+.button {
+    width:185px;
+    height:50px;
+    border-radius:50px;
+    background-color:#A63223;
+    margin-left:100px;
+    margin-top:10px;
+    text-align:center;
+    transition:.5s;
+}
+.button:hover {
+    background-color:white;
+    border:2px solid #A63223;
+}
+.button h3:hover {
+    color:#A63223;
+}
+.bengalBurger h1 {
+    text-align:center;
+    font-size:50px;
+    margin-top:50px;
+}
+.all {
+    width:500px;
+    height:500px;
+    margin:0 auto;
+}
+.button h3 {
+    color:white;
+    position:relative;
+    top:14px;
+}
+.quote {
+    width:1000px;
+    height:200px;
+    background-color:#dadfea;
+    position:relative;
+    top:50px;
+    right:250px;
+}
+.quote h1 {
+    text-align:center;
+    position:relative;
+    top:55px;
+    font-size:20px;
+    color:#575656;
+}
+.ingredients {
+    position:relative;
+    left:-280px;
+    top:50px;
+}
+.ingredients h1 {
+    margin-left:-180px;
+}
+.spiceMix {
+    position:relative;
+    top:80px;
+    left:-280px;
+}
+.spiceMix h3 {
+    margin-left:50px;
+}
+.directions ol li  {
+    margin-top:20px;
+}
+.directions h4 {
+    margin-bottom:-20px;
+    margin-top:20px;
+}
+.directions {
+    width:539px;
+    height:1000px;
+    position:relative;
+    left:230px;
+    top:-720px;
+}
+.directions h1 {
+    margin-left:-255px;
+}
+iframe {
+    margin-left: -100px;
+    margin-top:45px;
+}
+
+
+
+
